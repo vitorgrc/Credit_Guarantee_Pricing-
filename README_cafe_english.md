@@ -60,14 +60,16 @@ The additive WOE combination assumes the 4 variables are independent of one anot
 
 ## Repository Structure
 
-├── data/
-│   └── coffee_base.xlsx             # Case dataset (862 records)
-├── spreadsheets/
-│   └── full_calculator.xlsx         # Full workbook: Metadata, Base, Calculator, Analysis, Validation
+```
+├── dados/
+│   └── base_cafe.xlsx               # Base fornecida no case (862 registros)
+├── planilhas/
+│   └── calculadora_completa.xlsx    # Arquivo completo: Metadados, Base, Calculadora, Análise, Validação
 ├── imagens/
 │   ├── iv_ranking.png
 │   └── validacao_modelo.png
 └── README.md
+```
 
 ## Limitations & Next Steps
 
