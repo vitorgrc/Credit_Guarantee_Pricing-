@@ -58,6 +58,17 @@ The additive WOE combination assumes the 4 variables are independent of one anot
 
 **Mean absolute error: ~14 percentage points.** The model consistently gets the *direction* right — it never flipped whether the probability should be high or low — but the *magnitude* carries a meaningful margin of error, especially where two variables are strongly correlated with each other. The clearest case: **92.3% of all Colombian coffee in the dataset is the Caturra variety**. Selecting "Colombia" + "Caturra" together makes the model sum the effect of two variables that, in practice, carry nearly the same signal — inflating the predicted probability (95.3% predicted vs. 86.2% actual for that specific combination).
 
+## Repository Structure
+
+├── data/
+│   └── coffee_base.xlsx             # Case dataset (862 records)
+├── spreadsheets/
+│   └── full_calculator.xlsx         # Full workbook: Metadata, Base, Calculator, Analysis, Validation
+├── imagens/
+│   ├── iv_ranking.png
+│   └── validacao_modelo.png
+└── README.md
+
 ## Limitations & Next Steps
 
 - The model assumes independence between the 4 characteristics, which doesn't fully hold — Country and Variety are strongly correlated in practice
