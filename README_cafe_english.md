@@ -2,7 +2,7 @@
 
 A credit-scoring model to estimate the guarantee value of coffee sacks pledged in credit operations, using Information Value (IV) and Weight of Evidence (WOE) — the same techniques real banks use to assess risk.
 
-📄 **Read the full analysis on Medium:** [article link]
+📄 **Read the full analysis on Medium:** (https://medium.com/@vitor.grc89/precifica%C3%A7%C3%A3o-de-garantias-de-cr%C3%A9dito-com-iv-e-woe-um-case-de-cr%C3%A9dito-agr%C3%ADcola-f68f19a2bd1b?postPublishedType=initial)
 
 ## Business Problem
 
